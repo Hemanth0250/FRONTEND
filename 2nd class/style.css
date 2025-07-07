@@ -1,0 +1,105 @@
+/* :root for CSS variables */
+:root {
+  --main-color: #2c3e50;
+  --text-color: #333;
+  --padding: 10px;
+}
+
+/* Box Model */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+span{
+    color: chocolate;
+}
+
+/* Layout & Typography */
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: #f9f9f9;
+}
+
+header, footer {
+  background-color: var(--main-color);
+  color: white;
+  text-align: center;
+  padding: var(--padding);
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Flexbox Example */
+.flexbox {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.box {
+  background-color: lightcoral;
+  flex: 2;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Form Inputs */
+form input[type="text"],
+form input[type="email"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+}
+
+form input[type="submit"] {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+/* Positioning */
+footer {
+  position: sticky;
+  bottom: 0;
+}
+
+/* Specificity Demo */
+p {
+  color: gray;
+}
+
+.section p {
+  color: black;
+}
+
+#main-section p {
+  color: blue;
+}
+
+/* Media Query for Responsive page */
+@media screen and (max-width: 768px) {
+  header, footer {
+    font-size: 14px;
+  }
+  .flexbox {
+    flex-direction: column;
+  }
+}

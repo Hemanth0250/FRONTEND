@@ -1,0 +1,68 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Group Selector */
+h2, p {
+    margin: 10px 0;
+}
+
+/* ID Selector */
+#about {
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+/* Class Selector */
+.nav-link {
+    margin-right: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+/* Attribute Selector */
+a[target] {
+    font-weight: bold;
+}
+
+/* Pseudo-class */
+a:hover {
+    color: red;
+}
+
+/* Pseudo-element */
+p::first-letter {
+    font-size: 20px;
+    color: green;
+}
+
+/* Combinators */
+section > p {
+    border: 1px dashed gray;
+    padding: 10px;
+}
+
+nav + main {
+    margin-top: 20px;
+}
+
+nav ~ main {
+    background-color: #fafafa;
+}
+
+/* Class with border and margin */
+.btn {
+    margin: 10px;
+    border: 2px solid #333;
+    background-color: lightblue;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* Span styling */
+.highlight {
+    color: orange;
+    font-weight: bold;
+}

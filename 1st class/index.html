@@ -3,10 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hemu</title>
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+    <style>
+        /* Internal CSS */
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>HEMANTH GOWDA N</h1>
-    
+
+    <!-- Single-line comment -->
+
+    <!-- Semantic Elements -->
+    <header>
+        <h1 style="color: brown;">Welcome </h1>
+    </header>
+
+    <nav>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+    </nav>
+
+    <main>
+        <!-- Block Element -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>This is a paragraph inside a section. 
+                <span class="highlight" style="color: chartreuse;">This is an inline span.</span></p>
+        </section>
+
+        <!-- Inline Elements -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Check our services by clicking 
+                <a href="https://vhypotenuse.com/" target="_blank" title="Visit Site">here</a>.
+            </p>
+            <button class="btn">Click Me</button>
+        </section>
+
+        <!-- Multi-line comment
+            Example of Aside and Article
+        -->
+        <aside>
+            <p>This is an aside section for extra info.</p>
+        </aside>
+
+        <article>
+            <h2>Blog Article</h2>
+            <p>This article is about semantic HTML.</p>
+        </article>
+    </main>
+
+    <footer>
+        <span style="background-color: coral;">This is footer</span>
+    </footer>
+
 </body>
 </html>
