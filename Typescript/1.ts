@@ -34,20 +34,20 @@
 
 //Interfaces (for object structure)
 
-interface Person{
-    name:string;
-    age:number;
-}
+// interface Person{
+//     name:string;
+//     age:number;
+// }
 
-let user:Person={
-    name:"hemu",
-    age:22
-};
+// let user:Person={
+//     name:"hemu",
+//     age:22
+// };
 
-let user1:Person={
-    name:"abhi",
-    age:25
-};
+// let user1:Person={
+//     name:"abhi",
+//     age:25
+// };
 
-console.log(user.name);
-console.log(user1)
+// console.log(user.name);
+// console.log(user1)
