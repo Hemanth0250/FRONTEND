@@ -65,3 +65,4 @@ let addr: Address = {};
 console.log(addr.city?.toUpperCase); // undefined, no error
 let addr2: Address = { city: "Bangalore" };
 console.log(addr2.city?.toUpperCase()); // "BANGALORE"
+coconsole.log(addr2.city);
