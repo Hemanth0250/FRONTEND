@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="HEMANTH GOWDA N"/>
-  </div>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to HEMANTH GOWDA N"/>
 </template>
 
 <script>
@@ -22,7 +20,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #b6fa0b;
+  color: #2c3e50;
   margin-top: 60px;
+  background-color: #f5f5f5;
+}
+#app img {
+  width: 200px;
+  height: auto;
 }
 </style>
