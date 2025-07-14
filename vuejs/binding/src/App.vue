@@ -68,6 +68,6 @@ export default {
 }
 .sold-out{
   font-style: italic;
-  color: rgb(128, 128, 0);
+  color: rgb(251, 255, 0);
 }
 </style>
